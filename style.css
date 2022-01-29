@@ -1,0 +1,137 @@
+body{
+  background-color: gold;
+}
+
+/* Barra topo */
+
+.barra-topo{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    background-color: brown;
+    align-items: center;
+    height: 54px;
+    border-bottom-style: groove;
+}
+
+.barra-topo input{
+    border-radius: 3px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.border{
+    height: 22px;
+    width: 1px;
+    background: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Caixa Stories */
+
+.caixa-stories{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 614px;
+    height: 118px;
+    background-color: blue;
+    margin-top: 88px;
+    margin-left: 215px;
+}
+
+.caixa-stories img{
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: cornsilk;
+}
+
+/* Posts Instagram */
+
+.posts{
+    margin-left: 215px;    
+    margin-top: 24px;
+}
+
+.post   {
+    height: 749px;
+    width: 614px;
+    margin-top: 60px;
+    border-radius: 3px;
+    background-color: royalblue;
+}
+
+.post img{
+    height: 612px;
+    width: 612px;
+    border-radius: 0px;
+    background-color: seagreen;
+}
+
+.topo-post{
+    display: flex;
+    height: 61px;
+    align-items: center;
+}
+
+.topo-post img{
+    margin-left: 17px;
+    margin-right: 15px;
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+    background-color: saddlebrown;
+    
+}
+
+.topo-post p{
+    margin-right: 409.5px;
+    width: 109px;
+}
+
+.icones{
+    display: flex;
+    height: 38px;
+    background-color: cadetblue;
+    align-items: center;
+}
+
+.icones ion-icon{
+    margin-right: 18px;
+    margin-left: 18px;
+    height: 18px;
+    width: 18px;
+}
+
+.salvar{
+    margin-left: 478.06px;
+}
+
+.curtidas{
+    display: flex;
+    height: 38px;
+    background-color: red;
+    align-items: center;
+} 
+
+.curtidas img{
+    margin-left: 17px;
+    margin-right: 15px;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: saddlebrown;
+}
+
+post img{
+    height: 612px;
+    width: 612px;
+}
